@@ -361,13 +361,13 @@ em, i {
 
 .btn-outline {
     background-color: transparent;
-    color: var(--primary);
-    border-color: var(--primary);
+    color: var(--bg-white);
+    border-color: var(--bg-white);
 }
 
 .btn-outline:hover {
-    background-color: var(--primary);
-    color: var(--bg-white);
+    background-color: var(--bg-white);
+    color: var(--primary);
 }
 
 .btn-lg {
