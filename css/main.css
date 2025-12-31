@@ -423,6 +423,12 @@ em, i {
     color: var(--primary);
 }
 
+.nav-logo-img {
+    height: 150px;
+    width: auto;
+    display: block;
+}
+
 .nav-menu {
     display: flex;
     gap: var(--space-6);
@@ -450,7 +456,9 @@ em, i {
     min-height: 80vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+    background: linear-gradient(rgba(43, 107, 103, 0.7), rgba(43, 107, 103, 0.7)), url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
     color: var(--bg-white);
     position: relative;
     overflow: hidden;
